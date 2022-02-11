@@ -1,7 +1,9 @@
+
+
 set role saahas;
-
-
-----------------------------Monthly---Oct-1st--------
+select *
+from encounter_type;
+----------------------------Weekly---Oct-1st--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -36,11 +38,11 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
-----------------------------Monthly---Oct-2nd--------
+----------------------------Weekly---Oct-2nd--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -75,12 +77,12 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
 
-----------------------------Monthly---Oct-3rd--------
+----------------------------Weekly---Oct-3rd--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -115,13 +117,13 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
 
 
-----------------------------Monthly---Oct-4th--------
+----------------------------Weekly---Oct-4th--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -156,13 +158,13 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
 
 
-----------------------------Monthly---Nov-1st--------
+----------------------------Weekly---Nov-1st--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -197,11 +199,11 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
-----------------------------Monthly---Nov-2nd--------
+----------------------------Weekly---Nov-2nd--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -236,12 +238,12 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
 
-----------------------------Monthly---Nov-3rd--------
+----------------------------Weekly---Nov-3rd--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -276,13 +278,13 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
 
 
-----------------------------Monthly---Nov-4th--------
+----------------------------Weekly---Nov-4th--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -317,14 +319,14 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
 
 
 
-----------------------------Monthly---Dec-1st--------
+----------------------------Weekly---Dec-1st--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -359,11 +361,11 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
-----------------------------Monthly---Dec-2nd--------
+----------------------------Weekly---Dec-2nd--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -398,12 +400,12 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
 
-----------------------------Monthly---Dec-3rd--------
+----------------------------Weekly---Dec-3rd--------
 
 insert into encounter (observations,
                        encounter_type_id,
@@ -438,7 +440,7 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 

@@ -1,3 +1,8 @@
+select *
+from encounter_type;
+select *
+from individual
+where subject_type_id = 399;
 set role saahas;
 
 -----Monthly---Oct-------------
@@ -34,7 +39,7 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
@@ -73,7 +78,7 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
@@ -112,7 +117,7 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
@@ -152,7 +157,7 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
@@ -193,7 +198,7 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
@@ -234,7 +239,7 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
@@ -276,7 +281,7 @@ select '{}'::jsonb,
 
 
 from individual i
-where i.subject_type_id = 399
+where i.subject_type_id = 399 and single_select_coded(i.observations->>'70e8ac80-cb76-4b53-98b1-1f142b632835') <>'Research'
   and i.is_voided = false;
 
 
